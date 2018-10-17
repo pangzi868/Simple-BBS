@@ -1,0 +1,289 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.all{
+	width: 100%;
+	height: 627px;
+}
+/*标题栏*/
+.top img{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 3px;
+	border-bottom: 10px solid #F0F0F0;
+	/*border: 1px solid blue;*/
+}
+.back{
+	float: left;
+	width: 25px;
+	height: 25px;
+	padding-top: 10px;
+
+}
+.h1{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 4px;
+}
+.delete{
+	float: right;
+	margin-right: 15px;
+	width: 25px;
+	height: 25px;
+	padding-top: 10px;
+}
+
+/*内容部分*/
+.content{
+	width: 100%;
+	height: 230px;
+	/*border: 1px red solid;*/
+	position: relative;
+	border-bottom: 10px solid #F0F0F0;
+}
+.content-top{
+	width: 100%;
+	height: 50px;
+}
+.head1{
+	width: 50px;
+	height: 50px;
+	padding-left: 10px;
+}
+.head1 img{
+	border-bottom-left-radius:25px; 
+	border-bottom-right-radius:25px; 
+	border-top-left-radius:25px; 
+	border-top-right-radius:25px; 
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+.h2{
+	height: 40px;
+	width: 180px;
+	position: absolute;
+	left: 62px;
+	top: 3px;
+}
+.h2 li{
+	list-style: none;
+}
+.li{
+	color: gray;
+	font-size: 10px;
+}
+.collection{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 90%;
+	top: 5px;
+}
+.collection img{
+	width: 30px;
+	height: 30px;
+}
+
+/*内容详情*/
+.name li{
+	color:#FF9D6F;
+	padding:8px 0px 0px 10px;
+	font-size: 18px;
+}
+.inside-content{
+	position: absolute;
+	top: 83px;
+	font-size: 20px;
+	color: #000000;
+	padding-left: 12px;
+}
+.photo{
+	width: 100%;
+	height: 135px;
+	/*border: 1px solid #E0E0E0;	*/
+}
+
+.photo1{
+	padding-top: 35px;
+	float: left;
+	width: 30%;
+	height: 100px;
+	margin-left: 2.5%;
+}
+.photo1 img{
+	height: 100px;
+	width: 100%;
+}
+
+/*热门评论部分*/
+.red{
+	color: red;
+}
+.content2{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 5px;
+}
+.content2-top{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	font-size: 18px;
+}
+.content2-head img{
+	border-bottom-left-radius:25px; 
+	border-bottom-right-radius:25px; 
+	border-top-left-radius:25px; 
+	border-top-right-radius:25px; 
+	position: absolute;
+	left: 8px;
+	top: 45px;
+	width: 50px;
+	height: 50px;
+}
+.content2-center{
+	position: absolute;
+	left: 65px;
+	top: 95px;
+}
+.content2-h2{
+	position: absolute;
+	left: 65px;
+	top: 50px;
+}
+.content2-h2 li{
+	list-style: none;
+}
+.content2-delete{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 30px;
+	right: 5%;
+}
+.content2-delete img{
+	height: 30px;
+	width: 30px;
+}
+.content2-bottom{
+	position: absolute;
+	top: 120px;
+	right:0%;
+	width: 100%;
+	height: 25px;
+	/*border: 1px solid red;*/
+}
+.content2-bottom-1 img{
+	position: absolute;
+    right:26.8%;
+	width: 25px;
+	height: 25px;
+}
+.content2-bottom-2{
+	font-size: 18px;
+	color: #000000;
+	position: absolute;
+	right:20%;
+	top: 3px;
+}
+.content2-bottom-3 img{
+	position: absolute;
+	top: 0px;
+	right:10%;
+	width: 25px;
+	height: 25px;
+}
+.content2-bottom-4{
+	font-size: 18px;
+	color: #000000;
+	position: absolute;
+	right:13px;
+	top: 3px;
+}
+/*暂无评论部分*/
+.nullContent{
+	width: 100%;
+	height: 100px;
+	font-size: 24px;
+	color: gray;
+	text-align: center;
+	padding-top: 80px;
+}
+
+/*页脚部分*/
+.footer{
+	border-top: 3px #F0F0F0 solid;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 627px;
+}
+.char{
+	margin-top: 8px;
+	margin-left: 10px;
+}
+.footer-1{
+	text-align: center;
+	border-right: 3px #F0F0F0 solid;
+	width: 50%;
+	height: 40px;
+	float: left;
+	position: relative;
+}
+.footer-2{
+	text-align: center;
+	width: 49%;
+	height: 40px;
+	float: left;
+	position: relative;
+}
+.footer-1 img{
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	left: 27%;
+}
+.footer-2 img{
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	left: 27%;
+}
+
+/*发表话题部分*/
+.Etitle{
+	width: 80%;
+	height: 30px;
+	margin-left: 10%;
+	margin-top: 20px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+}
+.Econtent{
+	width: 80%;
+	height: 100px;
+	margin-left: 10%;
+	margin-top: 20px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+}
+.Epublished{
+	width: 100%;
+	height: 60px;
+	background: #FF6347;
+	color: white;
+	border: 0px;
+	position: absolute;
+	top: 92%;
+	left: 0px;
+}
